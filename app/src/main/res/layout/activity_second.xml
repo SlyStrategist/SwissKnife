@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.shaurya.projectone.Second"
+    android:background="#204049">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:weightSum="1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#d3fbfc">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register Here"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:paddingTop="15dp"
+            android:typeface="serif"
+            android:textSize="21dp"
+            android:textIsSelectable="false"
+            android:textColorHighlight="#367967"
+            android:textColor="#CDF9EF"
+            android:textAlignment="center"
+            android:outlineProvider="bounds"
+            android:background="#FF204049"
+            android:autoText="true"
+            android:visibility="visible" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/editText_style"
+            android:padding="20dp"
+            android:id="@+id/editText3"
+            android:layout_gravity="center_horizontal"
+            android:shadowDy="1"
+            android:hint="Enter your name"
+            android:textAlignment="center" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/editText_style"
+            android:padding="20dp"
+            android:id="@+id/editText4"
+            android:layout_gravity="center_horizontal"
+            android:hint="Enter a password"
+            android:textAlignment="center" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/editText_style"
+            android:padding="20dp"
+            android:id="@+id/editText5"
+            android:layout_gravity="center_horizontal"
+            android:hint="Enter your email address"
+            android:textAlignment="center" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:background="#FF204049"
+            android:fadingEdgeLength="@dimen/fab_margin"
+            android:max="3"
+            android:progress="1"
+            android:indeterminate="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            style="@style/button_style"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="oh no! take me back."
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal"
+            android:textIsSelectable="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="2dp"
+            android:background="#ffffff"
+            android:textColorLink="#ee3330"
+            android:textColorHighlight="#eeeeee"
+            android:focusable="false"
+            android:enabled="false"
+            android:clickable="true"
+            android:backgroundTint="#FF204049"
+            android:textColor="#CDF9EF"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+</RelativeLayout>
